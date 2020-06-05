@@ -21,6 +21,12 @@ function writePassword() {
   var upperCase = [A-Z];
   var lowerCase = [a-z];
   var numbers = [0-9];
+  var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
+  var userOptions = [];
+
+  if 
+
+
 
   
 
