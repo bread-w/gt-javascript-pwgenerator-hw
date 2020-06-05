@@ -17,7 +17,8 @@ function writePassword() {
   var numbers = confirm("Click 'OK' if you would like to include any numbers.");
   var specialCharacters = confirm("Click 'OK' if you would like to include any special characters.")
 
- 
+  var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
+  "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
   
 
