@@ -117,14 +117,15 @@ function writePassword() {
   }
   console.log(userOptions);
 
+  var password = ""
   for (var i = 0; i < lengthOfPassword; i++) {
     var randomNumbers = Math.floor(Math.random() * userOptions.length);
     console.log(randomNumbers);
     password += userOptions[randomNumbers];
   }
-  console.log(password)
+  
 
-  var password = generatePassword();
+  // var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
