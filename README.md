@@ -14,7 +14,7 @@ Clone the GitHub repository and open the index.html in the default broswer (goog
 
 ## Usage
 
-![Password Generator](Assets\03-javascript-homework-demo.png)
+![Password Generator](.Assets\03-javascript-homework-demo.png)
 
 ## Credits
 
