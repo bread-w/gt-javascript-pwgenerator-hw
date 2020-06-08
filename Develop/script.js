@@ -13,7 +13,7 @@ function writePassword() {
     alert("Please enter a valid number.");
     return writePassword();
   }
-
+// Clicking 'OK' will add each of the following into a newly created array. Cancel will dismiss them.
   var upperCase = confirm(
     "Click 'OK' if you would like to include any upper case letters, and 'Cancel' if not."
   );
@@ -94,6 +94,7 @@ function writePassword() {
     "(",
     ")",
   ];
+  // UserOptions array will house ALL of the arrays that the user has chosen.
   var userOptions = [];
 
   if (upperCase === true) {
@@ -117,6 +118,12 @@ function writePassword() {
     return writePassword();
   }
   console.log(userOptions);
+
+  /* 
+  * generating password string based of off the user prompt. All of the previous arrays 
+  * (uppercase, lowercase, numbers and special characters) are then added into the new userOptions array.
+  * The password is then chosen at random from within the newly created userOptions array, and creates a password 
+  */
 
   function generatePassword(){
     var password = ""
