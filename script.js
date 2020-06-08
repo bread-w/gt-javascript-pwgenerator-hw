@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var lengthOfPassword = prompt("Please enter desired password length.");
+  var lengthOfPassword = prompt("Please enter your desired password length. Entry must be between 8 and 128 characters.");
 
   if (lengthOfPassword < 8 || lengthOfPassword > 128) {
     alert("Please enter a number between 8 and 128.");
@@ -14,14 +14,14 @@ function writePassword() {
   }
 
   var upperCase = confirm(
-    "Click 'OK' if you would like to include any upper case letters."
+    "Click 'OK' if you would like to include any upper case letters, and 'Cancel' if not."
   );
   var lowerCase = confirm(
-    "Click 'OK' if you would like to include any lower case letters."
+    "Click 'OK' if you would like to include any lower case letters, and 'Cancel' if not."
   );
-  var numbers = confirm("Click 'OK' if you would like to include any numbers.");
+  var numbers = confirm("Click 'OK' if you would like to include any numbers, and 'Cancel' if not.");
   var specialCharacters = confirm(
-    "Click 'OK' if you would like to include any special characters."
+    "Click 'OK' if you would like to include any special characters, and 'Cancel' if not."
   );
 
   var upperCaseArray = [
